@@ -1,0 +1,216 @@
+body{
+    background: linear-gradient(rgb(11, 46, 112), rgb(0, 0, 0));
+    margin: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+main {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    border-top: 1px solid #414040;
+    padding: 5px;
+}
+
+/* Estilos para el contenedor del menú */
+.menu {
+    width: 600px;
+    height: 520px;
+    background-color: #222222;
+    border: 2px solid #414040;
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    left: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px black;
+  }
+  .contenido {
+    padding: 20px;
+  }
+
+  /* Estilos para los elementos del menú */
+  .menu-item {
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para los enlaces del menú */
+  .menu-link {
+    display: block;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* Estilos para los enlaces cuando están activos o se les pasa el mouse por encima */
+  .menu-link:hover,
+  .menu-link.active {
+    background-color: #42ca30;
+  }
+
+  /* Estilos para el logo */
+  #logo {
+    position: fixed;
+    cursor: pointer;
+    padding: 2px;
+  }
+  #logo:hover {
+    background-color: rgba(139, 136, 136, 0.2);
+    z-index: -1;
+    padding: 2px;
+    border-radius: 5px;
+  }
+
+
+  .search-container {
+    position: relative;
+  }
+
+  .search-input {
+    padding-left: 30px;
+    background-color: #161616;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  .search-input::placeholder {
+    color: rgb(110, 108, 108);
+    padding: 10px;
+  }
+
+  .lenguajes {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lenguajes button {
+    background-color: #474747;
+    padding: 5px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+  }
+  .lenguajes button:hover {
+    cursor: pointer;
+    background-color: #555555;
+  }
+
+  .iconos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iconos div {
+    flex: 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+  }
+  .iconos div:hover {
+    background-color: #313131;
+    border-radius: 5px;
+    padding: 1px;
+  }
+  .estudios {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  .estudios-titulo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .estudios-titulo button {
+    background-color: #474747;
+    padding: 5px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+  }
+  .estudios-titulo button:hover {
+    cursor: pointer;
+    background-color: #555555;
+  }
+  .estudios-diploma {
+    display: flex;
+    flex-direction: row;
+  }
+  .estudios-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 5px;
+  }
+  .diplomas {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+  }
+
+  .informacion {
+    background-color: #252525;
+    width: 100%;
+    height: 50px;
+    margin-top: -55px;
+    border-radius: 0 0 5px 5px;
+  }
+  .informacion h5 {
+    padding: 12px;
+  }
+
+  .section-lenguajes {
+    margin: 0;
+  }
+  .titulo-lenguajes {
+    text-align: center;
+    color: #ffffff;
+  }
+  .listas {
+    display: flex;
+}
+.listas div {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listas div h3 {
+    text-align: center;
+    color: #ffffff;
+}
+.habilidades_lista li{
+    list-style: none;
+    color: #ffffff;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgba(6, 37, 73, 0.7);
+    text-align: center;
+}
+.habilidades_lista li:hover {
+    background-color: rgb(31, 84, 134);
+}
