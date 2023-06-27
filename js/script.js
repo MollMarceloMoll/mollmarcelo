@@ -21,3 +21,6 @@ window.onload = function() {
   function lenguajes() {
     window.location.href = "lenguajes.html";
   }
+  function estudios() {
+    window.location.href = "estudios.html";
+  }
