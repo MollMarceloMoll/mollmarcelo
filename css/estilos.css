@@ -216,13 +216,14 @@ main {
 }
 
 .escritorio {
-  color: #ffffff;
-  width: auto;
-  height: auto;
-  padding: 1px;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Cambia align-items a flex-end */
+  justify-content: center;
+  text-align: center;
   margin-top: 5px;
-  float: right;
+  margin-right: 20px;
+  color: #ffffff
 }
 .escritorio div {
   display: flex;
