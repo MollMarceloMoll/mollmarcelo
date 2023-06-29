@@ -216,7 +216,7 @@ main {
     text-decoration: none;
   }
   .info-link:hover {
-    color: blue;
+    color: #ada8a8;
   }
   .info-link:visited {
     color: #ffffff;
