@@ -4,6 +4,15 @@ body {
   font-family: 'Raleway';
   background-size: cover;
 }
+a{
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(244, 244, 248);
+}
+a:visited {
+  color: #7a7777;
+}
 
 .container {
     width: 100%;
@@ -171,12 +180,17 @@ main {
     margin-right: 10px;
     order: -1;
   }
+  .diploma-item {
+    margin: 5px;
+    align-items: center;
+    display: flex;
+  }
 
   .informacion {
     background-color: #252525;
     width: 100%;
     height: 50px;
-    margin-top: -30px;
+    margin-top: -27px;
     border-radius: 0 0 5px 5px;
     display: flex;
   }
@@ -342,21 +356,21 @@ textarea {
 }
 
 .custom-list {
-  list-style-type: none; /* Elimina el marcador predeterminado de la lista */
+  list-style-type: none;
 }
 
 .custom-list li {
-  position: relative; /* Permite posicionar el marcador personalizado */
-  padding-left: 20px; /* Espacio para el marcador */
+  position: relative;
+  padding-left: 20px;
 }
 
 .custom-list li::before {
-  content: ""; /* Crea el marcador personalizado */
-  position: absolute; /* Posiciona el marcador con relación al elemento de la lista */
-  left: 0; /* Alinea el marcador a la izquierda */
-  top: 6px; /* Ajusta la posición vertical del marcador */
-  width: 10px; /* Ancho del marcador */
-  height: 10px; /* Altura del marcador */
-  border-radius: 50%; /* Cambia la forma a un círculo */
-  background-color: rgb(6, 73, 128); /* Cambia el color del marcador */
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(6, 73, 128);
 }
