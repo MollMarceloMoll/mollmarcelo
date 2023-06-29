@@ -1,8 +1,10 @@
-body{
-    background: linear-gradient(rgb(11, 46, 112), rgb(0, 0, 0));
-    margin: 0;
-    font-family: 'Didact Gothic', sans-serif;
+body {
+  background: linear-gradient(rgb(11, 46, 112), rgb(0, 0, 0));
+  margin: 0;
+  font-family: 'Raleway';
+  background-size: cover;
 }
+
 .container {
     width: 100%;
     height: 100vh;
@@ -252,14 +254,20 @@ main {
   text-align: center;
 }
 
-.titulo-contacto {
+.titulo-h2 {
   text-align: center;
+  font-size: 2.5rem;
   color: #ffffff;
+}
+.titulo-h4 {
+  color: #ffffff;
+  text-align: center;
 }
 .contacto {
   display: flex;
   flex-direction: column;
   width: 50%;
+  height: 480px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -268,6 +276,7 @@ main {
   border-radius: 10px;
   border: 1px solid #161616;
   padding: 10px;
+  margin-bottom: 100px;
 }
 label {
   font-size: 20px;
@@ -296,9 +305,54 @@ textarea {
   border: none;
   box-shadow: 2px 5px 15px  black;
   cursor: pointer;
+  margin-top: 10px;
 }
 .contacto button:focus {
   background-color: #083270;
   padding: 10px;
   border-radius: 10px;
+}
+
+.section-estudios {
+  width: auto;
+  background-color: #ffffff;
+  color: #000000;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.section-estudios div {
+  background-color: #dbd9d9;
+  padding: 5px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.section-estudios h2 {
+  text-align: center;
+  color: #464646;
+}
+.fecha {
+  font-size: 12px;
+}
+
+.custom-list {
+  list-style-type: none; /* Elimina el marcador predeterminado de la lista */
+}
+
+.custom-list li {
+  position: relative; /* Permite posicionar el marcador personalizado */
+  padding-left: 20px; /* Espacio para el marcador */
+}
+
+.custom-list li::before {
+  content: ""; /* Crea el marcador personalizado */
+  position: absolute; /* Posiciona el marcador con relación al elemento de la lista */
+  left: 0; /* Alinea el marcador a la izquierda */
+  top: 6px; /* Ajusta la posición vertical del marcador */
+  width: 10px; /* Ancho del marcador */
+  height: 10px; /* Altura del marcador */
+  border-radius: 50%; /* Cambia la forma a un círculo */
+  background-color: rgb(6, 73, 128); /* Cambia el color del marcador */
 }

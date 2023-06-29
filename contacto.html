@@ -12,8 +12,23 @@
 </head>
 <body>
     <div class="container">
+      <section>
+        <h2 class="titulo-h2">Contacto</h2>
+        <h4 class="titulo-h4">¿Quieres contactarme?</h4>
+        <h4 class="titulo-h4">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</h4>
+        <form action="" class="contacto" onsubmit="return validateForm()">
+            <label for="nombre"> Nombre : </label>
+                <input type="text" name="nombre" id="nombre" class="input-contacto">
+            <label for="asunto"> Asunto : </label>
+                <input type="text" name="asunto" id="asunto" class="input-contacto">
+                <label for="email"> Email : </label>
+                <input type="email" name="email" id="email" class="input-contacto">
+            <label for="mensaje">Mensaje : </label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
         <main>
-
             <header>
               <img src="img/icon-windows-11.png" alt="Inicio" id="logo" title="Inicio">
             </header>
@@ -98,19 +113,6 @@
             </nav>
 
         </main>
-
-        <section>
-            <h2 class="titulo-contacto">Contacto</h2>
-            <form action="" class="contacto">
-                <label for="nombre"> Nombre : </label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" class="input-contacto">
-                <label for="asunto"> Asunto : </label>
-                    <input type="text" name="asunto" id="asunto" placeholder="Ingrese el asunto" class="input-contacto">
-                <label for="mensaje">Mensaje : </label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Ingrese su mensaje"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
     </div>
 </body>
 </html>
