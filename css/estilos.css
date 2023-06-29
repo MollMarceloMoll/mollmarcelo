@@ -1,7 +1,7 @@
 body {
   background: linear-gradient(rgb(11, 46, 112), rgb(0, 0, 0));
   margin: 0;
-  font-family: 'Raleway';
+  font-family: 'Inter', sans-serif;
   background-size: cover;
 }
 a{
@@ -184,15 +184,34 @@ main {
     margin: 5px;
     align-items: center;
     display: flex;
+    height: 50px;
+    padding: 5px;
+  }
+  .diploma-item:hover {
+    background-color: #313131;
+    border-radius: 5px;
+    padding: 5px;
   }
 
   .informacion {
     background-color: #252525;
     width: 100%;
     height: 50px;
-    margin-top: -27px;
+    margin-top: -10px;
     border-radius: 0 0 5px 5px;
     display: flex;
+    align-items: center;
+  }
+  .informacion div {
+    display: flex;
+    align-items: center;
+    margin-left: 42px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  .informacion div:hover {
+    background-color: #313131;
   }
   .informacion h5 {
     padding: 0px;
