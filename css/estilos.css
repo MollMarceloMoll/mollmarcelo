@@ -312,6 +312,10 @@ textarea {
   padding: 10px;
   border-radius: 10px;
 }
+.gracias {
+  text-align: center;
+  color: #ffffff;
+}
 
 .section-estudios {
   width: auto;
